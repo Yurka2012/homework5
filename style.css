@@ -1,0 +1,62 @@
+:root{
+  --text-color: rgb(246, 255, 0);
+  --accent-color: #2196f3;
+  --heading-color: rgb(150, 117, 57);
+  --background-color: #25a488;
+  --team-color: #f5f4fa;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+main, html{
+  background-color: var(--background-color);
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  font-family: 'Playfair Display';
+  color: var(--text-color);
+}
+h2 {
+  background-color: rgba(255, 0, 0, 0.819);
+  color: rgb(0, 187, 255);
+  text-transform: uppercase;
+}
+nav{
+  background-color: var(--heading-color);
+
+}
+nav:hover{
+  background-color: rgba(0, 255, 225, 0.582);
+}
+.img1{
+  width: 420px;
+height: 280px
+}
+#h2-11{
+  font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+/* font-size: 14px; */
+line-height: 16px;
+color: #B4AD9E;
+/* width: 64px;
+height: 16px; */
+font-size: 
+14px;
+}
+#h2-12{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+color: #626262;
+}
+#p-11{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #626262;
+}
