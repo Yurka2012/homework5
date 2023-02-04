@@ -26,6 +26,7 @@ nav{
 }
 nav:hover{
   background-color: rgba(0, 255, 225, 0.582);
+cursor: loading;
 }
 .img1{
   width: 420px;
